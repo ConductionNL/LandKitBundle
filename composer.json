@@ -1,0 +1,44 @@
+{
+	"name" : "conduction/landkitbundle",
+	"type" : "library",
+	"description" : "Symfony Bundle for dutch common ground functionality",
+	"keywords" : [
+		"symfony",
+		"nl design",
+		"theme",
+	],
+	"homepage" : "https://www.conduction.nl",
+	"license" : "MIT",
+	"authors" : [{
+		"name" : "Ruben van der Linde",
+		"email" : "ruben@conduction.nl"
+	}, {
+		"name" : "Conduction",
+		"homepage" : "https://www.conduction.nl"
+	}
+	],
+	"require" : {
+		"php" : "^7.4.0",
+		"twig/extensions": "^1.5"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Conduction\\CommonGroundBundle\\" : ""
+		},
+		"exclude-from-classmap" : [
+			"/Tests/"
+		]
+	},
+	"minimum-stability" : "alpha",
+	"support" : {
+		"email" : "ruben@conduction.nl",
+		"issues" : "https://github.com/ConductionNL/LandKitBundle/issues",
+		"source" : "https://github.com/ConductionNL/LandKitBundle"
+	},
+	"repositories" : [{
+		"type" : "git",
+		"url" : "https://github.com/ConductionNL/LandKitBundle",
+		"name" : "source"
+	}
+	]
+}
