@@ -11,10 +11,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Conduction\LandKitBundle;
+namespace Conduction\LandkitBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class LandKitBundle extends Bundle
+class LandkitBundle extends Bundle
 {
 }
