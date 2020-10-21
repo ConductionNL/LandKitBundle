@@ -28,7 +28,7 @@
 </head>
 <body>
 <!-- MENU -->
-{% include 'menu.html.twig' %}
+{% include '@Landkit/default/menu.html.twig' %}
 
 <!-- Content -->
 {% block content %}
@@ -36,7 +36,9 @@
 {% endblock %}
 
 <!-- FOOTER -->
-{% include 'footer.html.twig' %}
+
+{% include '@Landkit/default/footer.html.twig' %}
+
 
 <!-- JAVASCRIPT -->
 <!-- Libs JS -->
