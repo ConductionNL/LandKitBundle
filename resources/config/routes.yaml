@@ -1,4 +1,4 @@
 # config/routes.yaml
 conduction_landkit_default_index:
     path:       /
-    controller: Conduction\LandkitBundle\Controller\DefaultController::index
+    controller: Conduction\LandkitBundle\Controller\DefaultController::indexAction
