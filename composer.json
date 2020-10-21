@@ -24,7 +24,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Conduction\\LandKitBundle\\" : ""
+			"Conduction\\LandkitBundle\\" : ""
 		},
 		"exclude-from-classmap" : [
 			"/Tests/"
@@ -33,12 +33,12 @@
 	"minimum-stability" : "alpha",
 	"support" : {
 		"email" : "ruben@conduction.nl",
-		"issues" : "https://github.com/ConductionNL/LandKitBundle/issues",
-		"source" : "https://github.com/ConductionNL/LandKitBundle"
+		"issues" : "https://github.com/ConductionNL/LandkitBundle/issues",
+		"source" : "https://github.com/ConductionNL/LandkitBundle"
 	},
 	"repositories" : [{
 		"type" : "git",
-		"url" : "https://github.com/ConductionNL/LandKitBundle",
+		"url" : "https://github.com/ConductionNL/LandkitBundle",
 		"name" : "source"
 	}
 	]

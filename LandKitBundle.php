@@ -1,6 +1,6 @@
 <?php
 
-// Conduction/LandKitBundle/LandKitBundle.php
+// Conduction/LandkitBundle/LandKitBundle.php
 
 /*
  * This file is part of the Conduction Common Ground Bundle
